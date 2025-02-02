@@ -1,0 +1,120 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.resumos {
+    display: flex;
+    align-items: center;
+    gap: 180px;
+}
+
+.tablesC {
+    display: flex;
+    gap: 180px
+}
+
+.CobrancasResumo {
+    display: flex;
+    align-items: center;
+    gap: 300px;
+
+}
+
+.CobrancasPagas {
+    width: 360px;
+    height: 111px;
+    border-radius: 30px;
+    background-color: #eef6f6;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.CobrancasVencidas {
+    width: 360px;
+    height: 111px;
+    border-radius: 30px;
+    background-color: #ffefef;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.CobrancasPrevistas {
+    width: 360px;
+    height: 111px;
+    border-radius: 30px;
+    background-color: #fcf6dc;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.TCobrancasPagas,
+.TCobrancasVencidas,
+.TCobrancasPrevistas {
+    width: 360px;
+    height: 291px;
+}
+
+.tituloTotal {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-right: 30px;
+}
+
+.QPA {
+    width: 52px;
+    height: 20px;
+    border-radius: 8px;
+    background-color: #eef6f6;
+    color: #52bbc0;
+}
+
+.QVE {
+    width: 52px;
+    height: 20px;
+    border-radius: 8px;
+    background-color: #ffefef;
+    color: #b85f5f;
+}
+
+.QPR {
+    width: 52px;
+    height: 20px;
+    border-radius: 8px;
+    background-color: #fcf6dc;
+    color: #c5a605;
+}
+
+.CEM {
+    width: 52px;
+    height: 20px;
+    border-radius: 8px;
+    background-color: #eef6f6;
+    color: #52bbc0;
+}
+
+.CIN {
+    width: 52px;
+    height: 20px;
+    border-radius: 8px;
+    background-color: #ffefef;
+    color: #b85f5f;
+}
+
+.clientsTables {
+    display: flex;
+    gap: 260.5px;
+}
+
+/* .modalUserMenu {
+    visibility: hidden;
+
+} */

@@ -1,0 +1,119 @@
+.ContainerTable {
+    overflow-y: scroll;
+    max-height: 100%;
+
+}
+
+.Menu {
+    width: 10%;
+    display: flex;
+    justify-content: start;
+    padding: 0 auto;
+    left: 0;
+
+}
+
+.menuModal {}
+
+.PageSettings {
+    background-color: white;
+}
+
+
+.ContainerConteudo {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 10px;
+
+}
+
+.main {
+    background-color: whit;
+}
+
+.chargeTable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    overflow-y: auto;
+    background-color: white;
+    padding-bottom: 50px;
+    color: black;
+    padding: 0 20px;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+}
+
+
+
+.ContainerGeral {
+    width: 100%;
+    max-height: 100vh;
+
+}
+
+.nomeCliente {
+    display: flex;
+}
+
+.tituloBotao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clientData1 {
+    display: flex;
+    gap: 8px;
+}
+
+.clientData2 {
+    display: flex;
+    gap: 8px;
+}
+
+.ColorFont {
+    color: #DA0175;
+}
+
+.fluxo {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.FN {
+    color: #848496;
+}
+
+.FD {
+    color: #848496;
+}
+
+.containerClientData {
+    background-color: white;
+}
+
+.ContainerClients {
+    background-color: #f8f8f9;
+}
+
+.botaoeditar {
+    width: 258px;
+    height: 33px;
+    border-radius: 10px;
+    background-color: #f8f8f9;
+    color: #0E8750;
+
+}
+
+.NCobranca {
+    width: 252px;
+    height: 33px;
+    background-color: #DA0175;
+}

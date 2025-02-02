@@ -1,0 +1,89 @@
+.body {}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.background {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.ContainerRegister {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.FlowC {
+    padding: 120px 40px;
+    width: 40%;
+    height: 894px;
+    background-color: #F0F0F5;
+    color: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+.backgroudlogin {
+    background-image: url("../../../public/LoginBackground.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #034A2A;
+    font-size: 24px;
+}
+
+.loginimg {
+    width: auto;
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #F8F8F9;
+    padding-bottom: 50px;
+}
+
+
+.FormC {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 100%;
+}
+
+.FormC img {}
+
+.inputs {
+    gap: 300px;
+
+}
+
+.input1 {
+    width: 344px;
+    height: 44px;
+    border-color: black;
+    background-color: white;
+    color: black;
+}
+
+.input2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 344px;
+    height: 44px;
+    border-color: black;
+    background-color: white;
+    color: black;
+}
